@@ -4,3 +4,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    width: 80%;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.clear-fix {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* regole header  */
+
+h1{
+    color: rgb(239, 85, 111);
+    
+}
+
+header p {
+    margin-top: 30px;
+}
+
+/* regole parte centrale */
+
+.conteiner{
+    width: 100%;
+    
+}
+
+/* regole debug */ 
+
+.list-img{
+    background-color: blue;
+    border: solid 2px black ;
+    height: 100px;
+    float: left;
+    width: calc(100%/3 - 10px);
+    padding: 10px;
+} 
