@@ -6,42 +6,65 @@
 }
 
 body{
-    width: 80%;
+    width: 90%;
     margin: auto;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Fredoka One', cursive;
     text-align: center;
 }
 
-.clear-fix {
+.clear-fix::after {
     content: "";
     display: table;
     clear: both;
 }
+ 
+a {
+    text-decoration: none;
+    color: blueviolet;
+    line-height: normal;
+}
+
+
+
 /* regole header  */
 
 h1{
-    color: rgb(239, 85, 111);
-    
+    color: rgb(239, 85, 111);   
 }
 
 header p {
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /* regole parte centrale */
 
 .conteiner{
-    width: 100%;
-    
+     width: 100%;
+     margin-top: 30px;
 }
 
-/* regole debug */ 
-
 .list-img{
-    background-color: blue;
-    border: solid 2px black ;
-    height: 100px;
     float: left;
-    width: calc(100%/3 - 10px);
-    padding: 10px;
+    margin: 10px;
+    width: calc(100%/3 - 20px);
+    background-color: rgba(2, 2, 45, 0.947);
+    color: white;
+    box-shadow: 5px 10px #888888 ;
+    text-align: left;   
 } 
+
+img{
+    float:left;
+    width: 25%;
+    margin-right: 10px;
+}
+
+.work{
+    line-height: 50%;
+    font-size: 15px;
+}
+
+
+
+
